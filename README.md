@@ -43,6 +43,7 @@ O objetivo deste teste é criar uma aplicação para identificação de bots. Es
 
 # Informações extras
 
+- O arquivo sessions.csv.gz é um dump do banco clickhouse, caso você utilize outro banco e não consiga realizar o import você pode utilizar o arquivo [sessions2.csv](https://vturb-labs.s3.amazonaws.com/challenges/sessions2.csv)
 - Propositalmente este teste não especifica linguagem nem tecnologia. Você tem total liberdade de ser criativo com a solução e também possui liberdade para assumir coisas do contexto que não foram especificadas aqui.
 
 Boa sorte! Estamos ansiosos para ver seu trabalho e avaliar suas habilidades como dev. Se você tiver alguma dúvida, não hesite em entrar em contato conosco.
