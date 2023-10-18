@@ -29,7 +29,8 @@ O objetivo deste teste é criar uma aplicação para identificação de bots. Es
 - Desenvolver uma funcionalidade que seja capaz de hidradar os dados recebidos do input do arquivo [sessions.csv.gz](https://vturb-labs.s3.amazonaws.com/challenges/sessions.csv.gz) inserindo uma nova propriedade `is_bot: Boolean`
 - Salvar o dado hidratado
 - Desenvolver um sistema frontend capaz de mostrar a quantidade de bots detectados por dia com filtro por player
-- Utilizar a base [dbip.mmdb](https://vturb-labs.s3.amazonaws.com/challenges/dbip.mmdb) para identificação de origem dos IPs das sessões do arquivo [sessions.csv.gz](https://vturb-labs.s3.amazonaws.com/challenges/sessions.csv.gz)
+- Utilizar a base [dbip.csv.gz](https://vturb-labs.s3.amazonaws.com/challenges/dbip.csv.gz) para identificação de origem dos IPs das sessões do arquivo [sessions.csv.gz](https://vturb-labs.s3.amazonaws.com/challenges/sessions.csv.gz) ou raw csv aqui [sessions2.csv](https://vturb-labs.s3.amazonaws.com/challenges/sessions2.csv)
+- O mapeamento dos campos do dbip se encontra [AQUI](https://db-ip.com/db/format/ip-to-location-isp/csv.html)
 
 ## Critérios de Avaliação
 
